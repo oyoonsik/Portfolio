@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang='ko'>
+<head>
+	<title> jQuery Mobile WebApp - Ajax 데이터 바인딩 </title>
+	<meta charset='utf-8'>
+	
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.6, minimum-scale=1.0"/>	
+	<link href='css/style.css' rel='stylesheet'>
+	<link href='css/jquery.mobile-1.4.5.min.css' rel='stylesheet'>
+	
+	<script src='js/lib/jquery-1.11.1.min.js'></script>
+	<script src='js/lib/jquery.mobile-1.4.5.min.js'></script>
+	
+	<script src='js/ajaxJSON.js'></script>
+
+</head>
+<body>
+	
+	<div data-role='page' id='page1'>
+		<div data-role='header' data-position='fixed'>
+			<h1>AJAX TEXT</h1>
+			
+		</div>
+		
+		<div data-role='conent'>
+			<button id='Btn1' data-inline='true'>Ajax-TEXT</button>
+			<button id='Btn2' data-inline='true'>Ajax-JSON</button>
+			<button id='Btn3' data-inline='true'>Ajax-XML</button>
+			
+			<ul data-role='listview' id='bindList' data-inset='true'>
+				<li>Ajax 데이터 바인딩 하기 전 ... </li>
+				
+			</ul>
+			
+		</div>
+		<div data-role='footer' data-position='fixed'>
+			<h4>footer</h4>
+			
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+header
+height:120px;
+background-color:#f6f5ef;
+border-top:2px solid #000;
+border-bottom:1px solid #e5e5e5;
+color:#555;
+
+top/main메뉴: 
+color:#333;
+hover:#669900;
+font-size:13px;
+background-color:#2C2A29
+
+sub메뉴:
+background-color:#2C2A29
+
+
+타이틀메뉴 
+color:#fff;
+font-size:14px;
+
+보통메뉴
+font-size:12px;
+color:#999;
+
+하단
+background-image:
+녹색계열 글자색
+color: #64a70b;
+
+
+
